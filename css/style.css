@@ -1,4 +1,8 @@
 body {
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1280px;
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 16px;
@@ -6,12 +10,90 @@ body {
     color: #163152;
 }
 
+.header {
+    padding: 20px 55px;
+    margin-bottom: 40px;
+}
+
+.header-div {
+    display: flex;
+    justify-content: start;
+}
+
+.header-link {
+    margin-right: 471px;
+}
+
+.header-nav {
+    width: 559px;
+    margin-right: 40px;
+}
+
+.header nav a {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #163152;
+}
+
+.nav-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.user-icon-link {
+    width: 36px;
+}
+
+main {
+    padding: 0 55px;
+}
+
 h1 {
+    margin: 0;
+    padding: 0;
     font-family: 'Roboto';
     font-style: italic;
     font-weight: 400;
     font-size: 44px;
     line-height: 60px;
+    margin-top: 40px;
+}
+
+.main-section {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 120px;
+}
+
+.main-section1 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    width: 1030px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.description1 {
+    width: 400px;
+}
+
+.section-text1 {
+    margin: 0;
+    padding: 0;
+    padding-top: 19px;
+    text-align: start;
+}
+
+.image1 {
+    width: 600px;
+    height: 262px;
 }
 
 h2 {
@@ -96,16 +178,6 @@ h3 {
     margin-top: 5px;
     width: 22px;
     height: 26px;
-}
-
-.header nav a {
-    font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 18px;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #163152;
 }
 
 section p .winner {
